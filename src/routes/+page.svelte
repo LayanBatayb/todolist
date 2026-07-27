@@ -4,6 +4,6 @@ import Header from "$lib/Header.svelte";
 
 <div class="p-16">
  <Header/>
- \\component
  
+
 </div>
