@@ -29,12 +29,12 @@
   </div>
 
   <button
-    class="bg-pink-900/40 w-28 h-14 h-fit py-4 btn variant-filled w-48 justify-between"
+    class="bg-pink-900/30 active:bg-pink-900/10 w-28 h-14 h-fit rounded-full py-4 btn variant-filled w-48 justify-between"
     use:popup={popupCombobox}
   >
     <span > {comboboxValue}</span>
     <span class="!m-0">
-      <svg class="w-6 bg-pink-950/55 "
+      <svg class="w-6 text-pink-900 "
         xmlns="http://www.w3.org/2000/svg"
       
         viewBox="0 0 24 24"
@@ -52,12 +52,12 @@
     </span>
   </button>
 
-  <div class="bg-pink-100 card w-48 shadow-xl py-2" data-popup="popupCombobox">
+  <div class="card w-48 shadow-xl py-2" data-popup="popupCombobox">
     <ListBox rounded="rounded-none">
-      <ListBoxItem class="text-rose-950" bind:group={comboboxValue} name="medium" value="جميع المهام"
+      <ListBoxItem class="text-rose-950 hover:bg-pink-800/50" bind:group={comboboxValue} name="medium" value="جميع المهام"
         >جميع المهام</ListBoxItem
       >
-      <ListBoxItem class="text-rose-950" bind:group={comboboxValue} name="medium" value="مهام اليوم"
+      <ListBoxItem class="text-rose-950 hover:bg-pink-800/50" bind:group={comboboxValue} name="medium" value="مهام اليوم"
         >مهام اليوم</ListBoxItem
       >
       
